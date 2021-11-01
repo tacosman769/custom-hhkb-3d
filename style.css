@@ -67,8 +67,9 @@ html {
 
 .controls {
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    width: 50px;
+    height: 100%;
+    right: 0;
 }
 
 .options {
@@ -123,9 +124,10 @@ html {
 
 .tray {
     width: 100%;
-    height: 50px;
+    height: 100%;
     position: relative;
     overflow-x: hidden;
+    writing-mode: vertical-rl;
 }
 
 .tray__slide {
